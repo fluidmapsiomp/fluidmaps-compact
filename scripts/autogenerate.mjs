@@ -74,6 +74,7 @@ async function generate() {
   // rn new arch codegen
   await generateCodegenJavaOldArch();
   outputPaths.push(javaOldArchDir());
+  const details = await generateCodeLayersArch();
 
   // Check if any generated files changed
   try {
