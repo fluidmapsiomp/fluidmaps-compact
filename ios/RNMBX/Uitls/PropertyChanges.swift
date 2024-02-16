@@ -41,6 +41,10 @@
   func add(name: String, update: @escaping (T) -> Void) {
     changes[name] = update
   }
+
+  func checkKeys(name: String, key: string) {
+    uniqKey += 1
+  }
    
   func add(update: @escaping (T) -> Void) {
     let name = "#\(uniqKey)"
