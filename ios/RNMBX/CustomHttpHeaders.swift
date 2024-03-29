@@ -58,4 +58,10 @@ class CustomHttpHeaders : HttpServiceInterceptorInterface {
   func onResponse(for response: HttpResponse) -> HttpResponse {
     return response
   }
+
+  func onError(for errorResponse: HttpResponse) -> HttpResponse {
+    return errorResponse
+  }
 }
+
+
