@@ -75,6 +75,12 @@ export function mergeContents({
   return { contents: src, didClear: false, didMerge: false };
 }
 
+export functiion getContent(tag) {
+  if (!tag) {
+    throw new Error('Tag is missing')
+  }
+}
+
 export function removeContents({
   src,
   tag,
