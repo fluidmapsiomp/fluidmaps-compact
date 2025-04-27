@@ -458,9 +458,9 @@ export {
   // addLibCppFilter as _addLibCppFilter,
   // Following methods accept a config object
   // withAndroidProperties as _withAndroidProperties,
-  // withAndroidPropertiesDownloadToken as _withAndroidPropertiesDownloadToken,
+  withAndroidPropertiesDownloadToken as _withAndroidPropertiesDownloadToken,
   // withAndroidPropertiesImpl2 as _withAndroidPropertiesImpl2,
   // withAndroidAppGradle as _withAndroidAppGradle,
   // withAndroidProjectGradle as _withAndroidProjectGradle,
-  // withMapboxAndroid as _withMapboxAndroid,
+  withMapboxAndroid as _withMapboxAndroid,
 };
